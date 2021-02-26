@@ -8,6 +8,7 @@ main{
 	text-align: center;	
 	background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(../img/main.jpg) center no-repeat;
 	background-size: cover;	
+	background-attachment: fixed;
 	min-height: 680px;
 	color: #fff;
 	header{
@@ -16,10 +17,10 @@ main{
 
 	}
 	.main-content{
-		margin-top: 10rem;
+		margin-top: 7rem;
 	h1{
-		line-height: 4rem;	
-		font-size: 58px;
+		line-height: 6rem;	
+		font-size: 72px;
 	}
 	p{
 		padding-top: 3rem;
@@ -57,6 +58,7 @@ main{
 }
 .motivation{
 	background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(../img/main.jpg) center no-repeat;
+	background-attachment: fixed;
 	padding-top: 8rem;	
 	text-align: center;	
 	color:#fff;
@@ -85,17 +87,26 @@ main{
 }
 .features{
 	padding: 6rem 0;
-	img{
-		display: inline-block;
-	}
+
 	h4{
 		text-align: center;	
 	}
-	h5{
+
+	&-text,h5,p{
 		display: inline-block;
 	}
+	&-icon{
+		padding-right: 1.3rem;
+		display: inline-block;
+		img{
+			vertical-align:baseline;
+		}
+	}
+	&-text{
+		padding-top: 5rem;
+	}
 	.container{
-		width: 500px;	
+		width: 700px;	
 
 	}
 }

@@ -7,6 +7,7 @@ main {
   text-align: center;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/main.jpg) center no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   min-height: 680px;
   color: #fff;
 }
@@ -15,11 +16,11 @@ main header {
   font-size: 20px;
 }
 main .main-content {
-  margin-top: 10rem;
+  margin-top: 7rem;
 }
 main .main-content h1 {
-  line-height: 4rem;
-  font-size: 58px;
+  line-height: 6rem;
+  font-size: 72px;
 }
 main .main-content p {
   padding-top: 3rem;
@@ -52,6 +53,7 @@ main .main-content p {
 }
 .motivation {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/main.jpg) center no-repeat;
+  background-attachment: fixed;
   padding-top: 8rem;
   text-align: center;
   color: #fff;
@@ -80,15 +82,24 @@ main .main-content p {
 .features {
   padding: 6rem 0;
 }
-.features img {
-  display: inline-block;
-}
 .features h4 {
   text-align: center;
 }
-.features h5 {
+.features-text,
+.features h5,
+.features p {
   display: inline-block;
 }
+.features-icon {
+  padding-right: 1.3rem;
+  display: inline-block;
+}
+.features-icon img {
+  vertical-align: baseline;
+}
+.features-text {
+  padding-top: 5rem;
+}
 .features .container {
-  width: 500px;
+  width: 700px;
 }
