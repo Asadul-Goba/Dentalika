@@ -1,14 +1,14 @@
 .section-title {
   font-size: 42px;
-  text-align: center;
+  text-align: center ;
   padding: 2rem 0;
 }
 main {
-  color: #fff;
   text-align: center;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/main.jpg) center no-repeat;
   background-size: cover;
   min-height: 680px;
+  color: #fff;
 }
 main header {
   padding-top: 2em;
@@ -80,8 +80,14 @@ main .main-content p {
 .features {
   padding: 6rem 0;
 }
+.features img {
+  display: inline-block;
+}
 .features h4 {
   text-align: center;
+}
+.features h5 {
+  display: inline-block;
 }
 .features .container {
   width: 500px;
