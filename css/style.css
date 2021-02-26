@@ -15,6 +15,10 @@ main header {
   padding-top: 2em;
   font-size: 20px;
 }
+main header a {
+  text-decoration: none;
+  color: #fff;
+}
 main .main-content {
   margin-top: 7rem;
 }
@@ -25,7 +29,7 @@ main .main-content h1 {
 main .main-content p {
   padding-top: 3rem;
   line-height: 2.5rem;
-  font-size: 30px;
+  font-size: 40px;
 }
 .about {
   padding: 6rem 0;
@@ -42,11 +46,16 @@ main .main-content p {
   font-size: 26px;
 }
 .about-images img {
+  object-fit: cover;
   margin: 6px;
 }
 .services {
   padding: 2.5rem 0;
   text-align: center;
+}
+.services img {
+  object-fit: cover;
+  border-radius: 2rem;
 }
 .services h3 {
   line-height: 3rem;

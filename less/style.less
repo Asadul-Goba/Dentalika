@@ -12,8 +12,12 @@ main{
 	min-height: 680px;
 	color: #fff;
 	header{
-			padding-top: 2em;
-			font-size: 20px;
+		padding-top: 2em;
+		font-size: 20px;
+		a{
+		text-decoration: none;
+		color:#fff;
+	}
 
 	}
 	.main-content{
@@ -25,9 +29,10 @@ main{
 	p{
 		padding-top: 3rem;
 		line-height: 2.5rem;
-		font-size: 30px;	
+		font-size: 40px;	
 	}
-	}
+	
+}
 }
 
 .about{
@@ -45,6 +50,8 @@ main{
 	}
 	&-images{
 		img{
+
+			object-fit:cover;
 			margin: 6px;	
 		}
 	}
@@ -52,6 +59,10 @@ main{
 .services{
 	padding: 2.5rem 0;
 	text-align: center;
+	img{
+		object-fit:cover;
+		border-radius:2rem;
+	}
 	h3{
 		line-height: 3rem;	
 	}
