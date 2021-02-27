@@ -25,18 +25,21 @@ p {
 button {
   background-color: #33C354;
   border: none;
-  width: 20rem;
+  width: 17rem;
   height: 3.6rem;
   border-radius: 10px;
-  padding-bottom: 4rem;
+  padding-bottom: 3rem;
   margin-top: 5rem;
 }
 button a {
   font-weight: 400	;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   text-decoration: none;
   color: #fff;
   border-radius: 0.3rem;
+}
+button:hover {
+  background-color: #289943;
 }
 /*Блок первого основного экрана и шапки*/
 main {
@@ -51,6 +54,9 @@ main {
 main header {
   padding-top: 2em;
   font-size: 20px;
+}
+main header p {
+  margin-left: 0;
 }
 main header a {
   text-decoration: none;
@@ -101,7 +107,7 @@ main .main-content p {
   line-height: 3rem;
 }
 .services p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 /*Блок мотивационной фразы для клиентов*/
 .motivation {
@@ -152,7 +158,7 @@ main .main-content p {
 }
 /*Блок отзывов*/
 .reviews {
-  padding: 6rem 0;
+  padding-top: 6rem ;
   background-color: #F5F5F5;
 }
 .reviews .container {
@@ -173,6 +179,15 @@ main .main-content p {
 .reviews p {
   font-size: 1.5rem;
   font-weight: 300;
+}
+.reviews .grey {
+  margin-top: 3rem;
+  font-size: 1.4rem;
+  color: #666;
+  padding-bottom: 1rem;
+}
+.reviews .grey a {
+  color: #289943;
 }
 .reviews-avatar {
   margin-top: 1rem;
