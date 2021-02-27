@@ -1,14 +1,51 @@
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+a {
+  font-weight: 600;
+}
+h4 {
+  text-align: center;
+}
+p {
+  font-weight: 300;
+}
 .section-title {
   font-size: 42px;
   text-align: center ;
   padding: 2rem 0;
 }
+button {
+  background-color: #33C354;
+  border: none;
+  width: 20rem;
+  height: 3.6rem;
+  border-radius: 10px;
+  padding-bottom: 4rem;
+  margin-top: 5rem;
+}
+button a {
+  font-weight: 400	;
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 0.3rem;
+}
+/*Блок первого основного экрана и шапки*/
 main {
   text-align: center;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/main.jpg) center no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 680px;
+  min-height: 800px;
+  height: 100%;
   color: #fff;
 }
 main header {
@@ -20,17 +57,19 @@ main header a {
   color: #fff;
 }
 main .main-content {
-  margin-top: 7rem;
+  margin-top: 8rem;
 }
 main .main-content h1 {
   line-height: 6rem;
-  font-size: 72px;
+  font-size: 65px;
 }
 main .main-content p {
-  padding-top: 3rem;
+  padding-top: 4rem;
   line-height: 2.5rem;
-  font-size: 40px;
+  font-size: 32px;
+  margin-bottom: 4rem;
 }
+/*Блок описания и сведений о компании*/
 .about {
   padding: 6rem 0;
   background-color: #E9EDF0;
@@ -49,6 +88,7 @@ main .main-content p {
   object-fit: cover;
   margin: 6px;
 }
+/*Блок всех видов услуг*/
 .services {
   padding: 2.5rem 0;
   text-align: center;
@@ -60,6 +100,10 @@ main .main-content p {
 .services h3 {
   line-height: 3rem;
 }
+.services p {
+  font-size: 1.5rem;
+}
+/*Блок мотивационной фразы для клиентов*/
 .motivation {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/main.jpg) center no-repeat;
   background-attachment: fixed;
@@ -77,22 +121,16 @@ main .main-content p {
 }
 .motivation button {
   margin-top: 3rem;
-  background-color: #F5914F;
-  border: none;
-  width: 20rem;
-  height: 4rem;
-  border-radius: 1rem;
 }
-.motivation button a {
-  font-size: 2.5rem;
-  text-decoration: none;
-  color: #fff;
-}
+/*Блок преимуществ и достоинств компании*/
 .features {
   padding: 6rem 0;
 }
-.features h4 {
-  text-align: center;
+.features h5 {
+  font-size: 25px;
+}
+.features p {
+  font-size: 22px;
 }
 .features-text,
 .features h5,
@@ -110,5 +148,73 @@ main .main-content p {
   padding-top: 5rem;
 }
 .features .container {
-  width: 700px;
+  width: 750px;
+}
+/*Блок отзывов*/
+.reviews {
+  padding: 6rem 0;
+  background-color: #F5F5F5;
+}
+.reviews .container {
+  max-width: 95rem;
+}
+.reviews-item {
+  margin: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.reviews h4 {
+  font-size: 3rem;
+  padding-bottom: 3rem;
+}
+.reviews h6 {
+  font-size: 2rem;
+}
+.reviews p {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.reviews-avatar {
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+/*Блок контактов, ссылок и карты*/
+.contacts {
+  padding: 4rem 0;
+  font-size: 2rem;
+}
+.contacts h4 {
+  font-size: 3rem;
+  padding-bottom: 3rem ;
+}
+.contacts a {
+  line-height: 4rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: #000;
+  font-size: 2.2rem;
+}
+.contacts-p {
+  font-weight: 400;
+  margin: 1rem 0;
+}
+.contacts a:hover {
+  color: #0D569F;
+}
+.contacts img,
+.contacts i {
+  margin-right: 1rem;
+}
+/*Футер с ссылкой на разработчика*/
+footer {
+  background-color: #bbb;
+  height: 2rem;
+  margin: 0;
+  padding: 5px 0;
+}
+footer p {
+  margin: 0;
+  color: #000;
+  text-decoration: none;
+  float: right;
 }
