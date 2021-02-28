@@ -258,6 +258,10 @@ footer p {
   .about {
     text-align: center;
   }
+  main,
+  .motivation {
+    background-attachment: scroll;
+  }
   .features-item {
     margin-left: 0;
   }
