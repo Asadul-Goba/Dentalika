@@ -28,7 +28,6 @@ button {
   width: 17rem;
   height: 3.6rem;
   border-radius: 10px;
-  padding-bottom: 3rem;
   margin-top: 5rem;
 }
 button a {
@@ -132,6 +131,12 @@ main .main-content p {
 .features {
   padding: 6rem 0;
 }
+.features-item {
+  max-width: 45rem;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
 .features h5 {
   font-size: 25px;
 }
@@ -144,25 +149,16 @@ main .main-content p {
   display: inline-block;
 }
 .features-icon {
-  padding-right: 1.3rem;
   display: inline-block;
 }
 .features-icon img {
   vertical-align: baseline;
-}
-.features-text {
-  padding-top: 5rem;
-}
-.features .container {
-  width: 750px;
+  margin-right: 1rem;
 }
 /*Блок отзывов*/
 .reviews {
   padding-top: 6rem ;
   background-color: #F5F5F5;
-}
-.reviews .container {
-  max-width: 95rem;
 }
 .reviews-item {
   margin: 3rem 0;
@@ -174,10 +170,10 @@ main .main-content p {
   padding-bottom: 3rem;
 }
 .reviews h6 {
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 .reviews p {
-  font-size: 1.5rem;
+  font-size: 18px;
   font-weight: 300;
 }
 .reviews .grey {
@@ -232,4 +228,58 @@ footer p {
   color: #000;
   text-decoration: none;
   float: right;
+}
+@media (max-width: 992px) {
+  .features-item {
+    margin-left: 0;
+  }
+  .features-icon {
+    padding-right: 7px;
+    display: inline-block;
+  }
+  .features-icon img {
+    vertical-align: baseline;
+  }
+  main {
+    padding-bottom: 4rem;
+  }
+  main .main-content {
+    margin-top: 3rem;
+  }
+  main .main-content p {
+    margin-bottom: 1rem;
+  }
+  .motivation {
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+  }
+}
+@media (max-width: 726px) {
+  .features-item {
+    margin-left: 0;
+  }
+  .features-icon {
+    padding-right: 0;
+    display: inline-block;
+  }
+  .features-icon img {
+    vertical-align: baseline;
+  }
+  .about img {
+    max-width: 380px;
+    max-height: 320px;
+  }
+}
+@media (max-width: 380px) {
+  main .main-content h1 {
+    font-size: 40px;
+    line-height: 3rem;
+  }
+  main .main-content p {
+    font-size: 24px;
+    line-height: 1.5rem;
+  }
+  .motivation h3 {
+    font-size: 40px;
+  }
 }
